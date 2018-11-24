@@ -5,8 +5,11 @@ import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.List;
 
-// 泛型测试： http://www.runoob.com/java/java-generics.html
-// @TODO:  一共7种用法  @date: 20181120
+/**
+ * date: 201811
+ * 泛型测试： http://www.runoob.com/java/java-generics.html
+ * @TODO:  一共7种用法
+ */
 public class GenericTest {
     //#1 通用泛型 方法.
     private static<D> void printArr(D[] input) {
